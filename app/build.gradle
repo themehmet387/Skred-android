@@ -25,7 +25,7 @@ android {
         buildConfig = true
     }
     defaultConfig {
-        applicationId 'mobi.skred.app'
+        applicationId 'mobi.skred.app.green'
         minSdkVersion libs.versions.min.sdk.version.get() as int
         targetSdkVersion libs.versions.target.sdk.version.get() as int
         versionCode 368
