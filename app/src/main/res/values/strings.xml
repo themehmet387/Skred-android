@@ -2,7 +2,7 @@
 
 <resources>
 
-    <string name="application_name" translatable="false">Skred</string>
+    <string name="application_name" translatable="false">Green Skred</string>
 
     <!-- Google Firebase parameters -->
     <string name="google_api_key" translatable="false">AIzaSyBXd4r52k4LblffUoeCgCARt2R_5QrI9l0</string>
