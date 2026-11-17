@@ -66,8 +66,10 @@ android {
             manifestPlaceholders.twinmePackage = "org.twinlife.device.android.twinme"
 
             if (System.getenv('SIGNING_KEY_ALIAS') != null) {
-                signingConfig signingConfigs.twinmeRelease
-            }
+    signingConfig signingConfigs.twinmeRelease
+} else {
+    signingConfig signingConfigs.debug
+}
         }
 
         // Production settings, dev build parameters.
