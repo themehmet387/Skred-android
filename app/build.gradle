@@ -230,7 +230,6 @@ dependencies {
     runtimeOnly libs.androidx.sharetarget
 
     // debugImplementation because LeakCanary should only run in debug builds.
-    debugImplementation libs.leakcanary.android
 }
 
 // Huawei's gradle plugin v1.9.5.301 has a transitive dependency to protobuf-java.
